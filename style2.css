@@ -793,6 +793,108 @@
 
 
 
+
+	/* Reseaux sociaux */
+
+
+	.Smedia h2{
+		padding-left: 11%;
+		padding-top: 200px;
+		padding-bottom: 2px;
+		font-family: Product Sans;
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+
+
+	.BoxSmedia{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content:space-around;
+		align-items: center;
+
+	}
+
+
+	.BoxSmedia .ImgMed{
+		width: 257px;
+		height: 256px;
+	}
+
+
+
+
+	.LogFb{
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	.LogFb a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+	.LogYt{
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	.LogYt a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+
+	.LogTwt{
+		display: inline-block;
+		text-align: center;
+	}
+
+	.LogTwt a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+
+	.LogPtr{
+		display: inline-block;
+		text-align: center;
+	}
+
+	.LogPtr a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+
+
+
+
+
+
+
+
+
 	/* footer */
 
 
@@ -1571,6 +1673,109 @@
 
 
 
+	/* Reseaux sociaux */
+
+
+	.Smedia h2{
+		padding-left: 11%;
+		padding-top: 200px;
+		padding-bottom: 2px;
+		font-family: Product Sans;
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+
+
+	.BoxSmedia{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content:space-around;
+		align-items: center;
+
+	}
+
+
+	.BoxSmedia .ImgMed{
+		width: 251px;
+		height: 250px;
+	}
+
+
+
+
+	.LogFb{
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	.LogFb a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+	.LogYt{
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	.LogYt a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+
+	.LogTwt{
+		display: inline-block;
+		text-align: center;
+	}
+
+	.LogTwt a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+
+	.LogPtr{
+		display: inline-block;
+		text-align: center;
+	}
+
+	.LogPtr a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color:black;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 
@@ -2168,7 +2373,7 @@
 	.Event{
 		background: white;
 		width:90%;
-		height:30rem;
+		height:32rem;
 		margin:15px;
 		border-radius: 15px;
 		border:double #A8A8B2;
@@ -2213,15 +2418,17 @@
 		float: left;
 	}
 
-	.Event .log1{
-		padding-top: 0.25rem;
-		padding-right: 0.25rem;
+	.info1{
+		display: flex;
 	}
 
 
-	.Event .log2{
-		padding-left: 0.25rem;
-		padding-right: 0.25rem;
+	.info2 img{
+		float: left;
+	}
+
+	.info2{
+		display: flex;
 	}
 
 	.Event .button{
@@ -2247,7 +2454,7 @@
 
 
 	.Map{
-		margin-top: 2%;
+		margin-top: 25%;
 		display: flex;
 		width: 100%;
 		height: 50rem;
@@ -2343,6 +2550,107 @@
 
 
 
+
+		/* Reseaux sociaux */
+
+
+	.Smedia h2{
+		padding-left: 11%;
+		padding-top: 60px;
+		padding-bottom: 2px;
+		font-family: Product Sans;
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+
+
+	.BoxSmedia{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content:space-around;
+		align-items: center;
+
+	}
+
+
+	.BoxSmedia .ImgMed{
+		width: 100%;
+		height: 140px;
+	}
+
+
+
+
+	.LogFb{
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	.LogFb a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.2rem;
+		color:black;
+	}
+
+	.LogYt{
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	.LogYt a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.2rem;
+		color:black;
+	}
+
+
+	.LogTwt{
+		display: inline-block;
+		text-align: center;
+	}
+
+	.LogTwt a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.2rem;
+		color:black;
+	}
+
+
+	.LogPtr{
+		display: inline-block;
+		text-align: center;
+	}
+
+	.LogPtr a{
+		display: block;
+		text-decoration: none;
+		font-family: Palanquin Dark;
+		font-weight: 400;
+		font-size: 1.2rem;
+		color:black;
+	}
+
+
+
+
+
+
+
+
+
 /* footer */
 
 
@@ -2425,7 +2733,58 @@
 
 
 
+@media(max-width: 660px){
+		/* Reseaux sociaux */
 
+
+
+
+	.BoxSmedia .ImgMed{
+		width: 100%;
+		height: 110px;
+	}
+
+
+	.BoxSmedia .SmText{
+		display: none;
+	}
+
+
+
+	.LogFb{
+		display: inline-block;
+		text-align: center;
+
+	}
+
+
+	
+
+	.LogYt{
+		display: inline-block;
+		text-align: center;
+
+	}
+
+
+	
+
+	.LogTwt{
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	
+
+	.LogPtr{
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	
+}
 
 
 
@@ -2625,7 +2984,7 @@
 
 	.Ligne .shadow {
 	  overflow: hidden;
-	  height: 20px;
+	  height: 15px;
 	}
 
 	.Ligne .shadow:after {
@@ -2954,7 +3313,7 @@
 	.Event{
 		background: white;
 		width:90%;
-		height:30rem;
+		height:32rem;
 		margin:15px;
 		border-radius: 15px;
 		border:double #A8A8B2;
@@ -2969,7 +3328,7 @@
 	}
 
 	.Event p{
-		padding-top: 0.5rem;
+		padding-top: 0.8rem;
 		text-align: left;
 		font-size: 0.7em;
 		font-family: system-ui;
@@ -2994,21 +3353,25 @@
 
 	}
 
-	.Event img{
-		max-width: 100px;
+	.Eve-image img{
+		float: left;
+		padding-bottom: 5px;
+	}
+
+	.info1{
+		display: flex;
+	}
+
+
+	.info2 img{
 		float: left;
 	}
 
-	.Event .log1{
-		padding-top: 0.25rem;
-		padding-right: 0.25rem;
+	.info2{
+		display: flex;
 	}
 
 
-	.Event .log2{
-		padding-left: 0.25rem;
-		padding-right: 0.25rem;
-	}
 
 	.Event .button{
 		text-align: center;
@@ -3124,6 +3487,24 @@
 		border-radius: 40px;
 		box-shadow: 4px 4px 4px #EBEBEB;
 	}
+
+
+
+
+
+
+	/* Partie Reseaux sociaux */
+
+
+	.BoxSmedia .ImgMed{
+		width: 100%;
+		height: 100px;
+	}
+
+
+
+
+
 
 
 
