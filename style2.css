@@ -6,7 +6,13 @@
 			box-sizing: border-box;
 		}
 
-
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin:0;
+			padding: 0;
+			overflow-x: hidden;
+		}
 
 
 
@@ -21,6 +27,7 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
+		overflow: hidden;
 	}
 
 	nav{
@@ -982,6 +989,15 @@
 
 
 @media(max-width: 1268px){
+
+	html,body{
+			width: 100%;
+			height: 100%;
+			margin:0;
+			padding: 0;
+			overflow-x: hidden;
+	}
+
 	/* Partie haut */
 	
 	.haut{
@@ -1861,8 +1877,14 @@
 
 
 @media(max-width: /*430*/1000px){
-	/* telephone */
 
+	html,body{
+			width: 100%;
+			height: 100%;
+			margin:0;
+			padding: 0;
+			overflow-x: hidden;
+	}
 
 /* Partie haut */
 	
@@ -2734,6 +2756,9 @@
 
 
 @media(max-width: 660px){
+
+
+
 		/* Reseaux sociaux */
 
 
@@ -2803,7 +2828,13 @@
 @media(max-width: 430px){
 	/* telephone */
 
-
+	html,body{
+			width: 100%;
+			height: 100%;
+			margin:0;
+			padding: 0;
+			overflow-x: hidden;
+	}
 /* Partie haut */
 	
 	.haut{
