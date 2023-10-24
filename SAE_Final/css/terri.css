@@ -1,0 +1,432 @@
+*{
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: PalanquinDark;
+  src: url(font/PalanquinDark-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(font/OpenSans-VariableFont.ttf);
+}
+
+.aRest{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+  font-family: 'PalanquinDark';
+}
+
+
+
+
+body{
+  
+  height: fit-content;
+}
+p{
+  font-family: 'OpenSans';
+}
+h2{
+  font-family: 'PalanquinDark';
+  font-size: 3.5rem;
+  margin: 5rem 0 2rem 20rem;
+  text-decoration: underline;
+}
+
+header{
+  
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+video{
+  object-fit: cover;
+  position: absolute;
+  height: 110%;
+  
+  top: -2%;
+ 
+}
+#lien_principal{
+  width: fit-content;
+}
+#btn_connecter{
+  padding: 0.5rem;
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+}
+#btn_connecter:hover{
+  color: rgb(208, 208, 57);
+  transition: all 0.4s ease;
+}
+
+#logo_grandgueret{
+  height: min-content;
+  border-radius: 30px;
+  width: 20rem;
+  
+  padding: 15px;
+  background-color: white;
+  
+  
+}
+nav{
+  
+
+}
+nav ul{
+
+  
+  display: flex;
+  
+}
+
+nav ul li{
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  align-self: center;
+  
+  margin: 0 1em;
+  list-style: none;
+  font-size: 1.75em;
+  transition: all 0.4s ease;
+  
+}
+nav ul li:hover{
+  background-color: white;
+  color: black;
+  
+  
+}
+
+
+
+
+/*--------------------------------------------------*/
+#img_grandgueret{
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0;
+}
+#img_grandgueret img{
+  
+  width: 70%;
+  
+}
+
+
+/*--------------------------------------------------*/
+
+
+#flex_elus{
+  
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#flex_elus img{
+  
+  
+  width: 80%;
+}
+
+#terrain_amenages{
+  background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+
+
+}
+
+/*--------------------------------------------------*/
+
+
+.card{
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+
+  border-radius: 25px;
+  padding: 1rem;
+  font-size: 2rem;
+
+  transition: all 0.4s ease;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px rgb(84, 84, 84);
+}
+
+.card img{
+  width: 90%;
+  border-radius: 10px;
+
+  justify-content: center;
+}
+
+.card p{
+  
+  margin: 1.5rem;
+ 
+}
+
+
+#terrain_amenages_card{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 500px);
+  justify-content: center;
+  grid-gap: 40px;
+  padding: 2rem 1rem;
+}
+
+
+/*-----------entreprise----------------*/
+
+#entreprises{
+  background-color: rgb(255, 255, 255);
+}
+.panneau_entreprise{
+  
+}
+.logo{
+  margin-left: 1rem;
+  height: 8vw;
+  position: relative;
+  top: 3rem;
+  z-index: 5;
+}
+.banniere{
+  z-index: -45;
+  overflow: hidden;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.banniere:hover{
+  transform: scale(1.1);
+  
+  
+}
+.description{
+  padding: 3vw;
+  font-size: 3vw;
+}
+
+
+/*-----------rapport---------------*/
+
+#rapports_dactivites{
+  display: flex;
+  flex-wrap: wrap;
+}
+#rapports_dactivites h2{
+  width: 100%;
+  
+  padding-bottom: 3rem;
+}
+.doc{
+  margin: 10rem;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  
+
+
+  width: 500px;
+  height:400px;
+  border-radius: 70px;
+  transition: all ease 0.5s;
+  
+  
+}
+.doc:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px rgb(84, 84, 84);
+}
+
+.doc p{
+  text-align: center;
+  
+  top:-270px;
+  margin: 0rem 4rem;
+  position: relative;
+  font-size: 5rem;
+  
+  
+}
+.logo_doc{
+  
+  width: 60%;
+  position: relative;
+  bottom: 200px;
+  left: -30%;
+}
+
+/*-----------reseaux---------------*/
+#reseaux_sociaux{
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  padding: 3rem 0rem;
+
+}
+#ensemble_reseaux{
+  
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}
+.reseau{
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.reseau:hover{
+  transform: scale(1.05);
+  
+}
+
+.reseau a{
+  display: flex;
+  
+  
+  justify-content: center;
+}
+
+.reseau p{
+  
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'PalanquinDark';
+}
+
+
+
+/*-----------------footer--------------------*/
+
+footer{
+  color: white;
+  background-color: rgb(65, 65, 65);
+  height: fit-content;
+  
+}
+h3{
+  padding: 3rem;
+  font-size: 3rem;
+}
+#info_footer{
+  display: flex;
+  justify-content: space-between;
+}
+#info_footer ul{
+  
+  width: 50%;
+}
+#info_footer #svg_footer li{
+  font-size: 1.8rem;
+  margin-left: 5vw;
+  display: flex;
+  margin: 1rem 0rem;
+  align-items: baseline;
+  
+ 
+}
+#info_footer #svg_footer li img{
+  margin-right: 1rem;
+ 
+}
+
+#info_footer #text_footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+ 
+}
+#info_footer #text_footer li{
+  text-align: center;
+  height: 100%;
+  
+  font-size: 1.8rem;
+  padding: 1.5rem 0rem;
+  
+  transition: all 0.5s ease;
+ 
+}
+#info_footer #text_footer li:hover{
+  background-color: white;
+  color: black;
+ 
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1330px){
+  h2{
+    font-size: 3.5rem;
+    margin: 2rem 0rem;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+  }
+  header{
+    flex-direction: column;
+    align-items: center;
+  }
+  video{
+    height: 1200px;
+   
+  }
+  nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li{
+    text-align: center;
+    font-size: 3rem;
+    margin :1.5rem 0rem;
+    width: fit-content;
+  }
+  #logo_grandgueret{
+    width: 60%;
+  }
+  #rapports_dactivites {
+   justify-content: center;
+  }
+  .panneau_entreprise p{
+    text-align: justify;
+  }
+
+  #ensemble_reseaux{
+   flex-direction: column;
+    
+  }
+  #info_footer{
+    flex-direction: column;
+  }
+  #info_footer ul{
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
